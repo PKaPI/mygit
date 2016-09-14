@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0;}
+html{
+	overflow: hidden;
+}
+body{
+	background: #111;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: crosshair;
+}
+#canvas{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	overflow: hidden;
+}
+#canvas img{
+	position: absolute;
+	background: #666;
+	overflow:hidden;
+	cursor:pointer;
+	left:100%;
+	width: 40%;
+	height: 40%;
+	border: 1px solid #000;
+	-ms-interpolation-mode: nearest-neighbor;/*ie8私有属性3d*/
+}
+#canvas span{
+	position: absolute;
+	color: #9c9;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 0px;
+	white-space: nowrap;
+	left: -1000px;
+	background: #010;
+	filter: alpha(opacity=90);
+	opacity: 0,9;
+}
+#LB0{
+	position:absolute;left:50%;top:50%;
+}
+#LB0 .icon1{
+	position:absolute;font-family:arial;font-size:10px;color:#ccc;background:#000;left:-50px;top:-18px
+}
+#LB0 .icon2{
+	position:absolute;left:-50px;top:-5px;font-size:1px;width:100px;height:10px;background:#333
+}
+#LB1{
+	position:absolute;font-size:1px;width:0px;height:10px;background:#ccc
+}
