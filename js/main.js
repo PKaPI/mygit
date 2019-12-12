@@ -11,6 +11,7 @@ var px = function (x) {       //返回一个0~x之间的随机数px
 function resize() {	
 	gf.resize();
 }
+//文件修改
 onresize= resize;
  
 document.onmousemove = function(e)
