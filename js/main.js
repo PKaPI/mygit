@@ -1,17 +1,13 @@
-//hotfix master
 var id = function(o){
 	return document.getElementById(o);
 }
-//hotfix 文件修改
 var px = function (x) {       //返回一个0~x之间的随机数px
 	return ''.concat(Math.round(x), 'px'); 
 } 
-//hotfix2 文件修改
 //////////////////////////////////////////////////////////////////////////////
 function resize() {	
 	gf.resize();
 }
-//文件修改
 onresize= resize;
  
 document.onmousemove = function(e)
