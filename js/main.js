@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //hotfix master
+=======
+//测试git rebase
+>>>>>>> 487fb13e39a8f17a3ea32c97bd61a1f9c4799bdb
 var id = function(o){
 	return document.getElementById(o);
 }
