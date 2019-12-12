@@ -1,3 +1,4 @@
+ //返回一个0~x之间的随机数px
 var id = function(o){
 	return document.getElementById(o);
 }
