@@ -1,3 +1,4 @@
+//hotfix master
 var id = function(o){
 	return document.getElementById(o);
 }
